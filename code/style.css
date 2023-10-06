@@ -1,0 +1,549 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #eee;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+/* top bar code start ......  */
+.topbar{
+    width: 100%;
+    height: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logobox{
+    width: 230px;
+    height: 60px;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+}
+.logopic{
+    width: 240px;
+    height: 170px;
+    
+}
+.searchbarbox{
+    width: 50%;
+    height: 54%;
+    /* background-color: chocolate; */
+    display: flex;
+    margin-left: 20px;
+}
+.searchbar{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 17px;
+    padding-left: 7px;
+    border: 1px solid gray;
+}
+.googleaccountlogo{
+    width: 45px;
+    height: 40px;
+    background-color: #689f38;
+    color: white;
+    border-radius: 50%;
+    margin-left: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.btn1{
+    width: 13%;
+    height: 100%;
+    background-color: rgb(57, 61, 181);
+    color: white;
+    border: 0px;
+   
+
+}
+
+/* top bar code end ......  */
+
+
+/* second bar start here ......... */
+.secondbar{
+width: 100%;
+height: 55px;
+background-color: white;
+display: flex;
+margin-top: 8px;
+
+}
+
+.appsbox{
+    width: 15%;
+height: 100%;
+background-color: #689f38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:white ;
+}
+.whitedot{
+    margin-right: 10px;
+}
+.rowmenu{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(56, 153, 140); */
+    color: gray;
+    display: flex;
+    
+}
+
+.categories{
+    width: 28%;
+    height: 55%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    border: 1px solid gray;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+.homerow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+
+.active1{
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+/* second bar end here ......... */
+
+
+/* sidebar code  start here ............. */
+.sidebarcontainer{
+    width: 15%;
+    height: 70vh;
+    /* background-color: blueviolet; */
+    background: rgba(238,238,238,0.95);
+    box-shadow: 0 1px 6px rgb(0 0 0 / 10%);
+  
+}
+
+.box1{
+    width: 148px;
+    height: 100px;
+    /* background-color: chartreuse; */
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #d9d9d9;
+    /* font-size: 16px; */
+    
+}
+.shopword1{
+    color: #8d9d29;
+    margin-top: 10px;
+    
+}
+.sidebartext1{
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.box1text1{
+    color: gray;
+}
+
+
+.box2{
+    width: 100%;
+    height: 120px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    /* font-size: 19px;   */
+    color: #555;
+}
+
+.box2word1{
+    margin-top: -10px;
+}
+
+.box2word2{
+    margin-top: 10px;
+}
+.box2word3{
+    margin-top: 10px;
+}
+
+.box3{
+    width: 100%;
+    height: 218px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    color: #555;
+}
+
+.wordbox{
+    margin-left: 25px;
+}
+
+.box3word1{
+    margin-top: 15px;
+}
+.box3word2{
+    margin-top: 13px;
+}
+.box3word3{
+    margin-top:  13px;
+}
+.box3word4{
+    margin-top: 13px;
+}
+.box3word5{
+    margin-top:13px;
+}
+.box3word6{
+    margin-top:  13px;
+}
+.box3word7{
+    margin-top:  11px;
+}
+
+
+/* sidebar code  end here ............. */
+
+
+/* center container start here ..............  */
+
+.centercontainer{
+
+    width: 75%;
+    height: 450px;
+    /* background-color: blue; */
+    margin-left: 248px;
+    margin-top: -390px;
+}
+.btn2box{
+    display: flex;
+    justify-content: space-between;
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #689f38;
+    border-radius: 4px;
+    color: white;
+}
+.centerheadings{
+    font-weight: 400;
+}
+
+.centerbox1{
+    width: 100%;
+    height: 50%;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.centerboxapp1{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+    
+
+}
+
+.centerboxapp2{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+
+.centerboxapp3{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp4{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp5{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp6{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+
+.imgbox1{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/whatsapp.jpg);
+    background-size: cover;
+}
+
+.imgbox2{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/extreme\ car.png);
+    background-size: cover;
+}
+
+.imgbox3{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/subway\ surfer.jpg);
+    background-size: cover;
+}
+.imgbox4{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/My\ Talking\ Tom\ 2.png);
+    background-size: cover;
+}
+.imgbox5{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/MX\ Player.png);
+    background-size: cover;
+}
+.imgbox6{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/Bubble-Shooter.png);
+    background-size: cover;
+}
+
+/* second box start here ..............  */
+
+.centerbox2{
+    width: 100%;
+    height: 50%;
+    /* background-color: cadetblue; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn3box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.btn3{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: #689f38;
+    border-radius: 4px;
+    color: white;
+}
+.centerboxapp7{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.centerboxapp8{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+
+.centerboxapp9{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp10{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp11{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.centerboxapp12{
+    width: 16%;
+    height: 100%;
+    background-color: white;
+}
+.imgbox7{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/Skype.png);
+    background-size: cover;
+}
+.imgbox8{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/snack\ video.png);
+    background-size: cover;
+}
+.imgbox9{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/Pubg\ Mobile.png);
+    background-size: cover;
+}
+.imgbox10{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/Snapchat.png);
+    background-size: cover;
+}
+.imgbox11{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/Hill\ Climb\ Racing.png);
+    background-size: cover;
+}
+.imgbox12{
+    width: 80%;
+    height: 60%;
+    /* background-color: violet; */
+    margin: 17px;
+    background-image: url(../Images/zapya.png);
+    background-size: cover;
+}
+/* center container end here ..............  */
+
+
+/* screenshot code here ............................  */
+
+.shot1{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+
+.shot2{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot3{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot4{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot5{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot6{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot7{
+    margin: -10px 0px 0px 35px;
+    width: 100px;
+    height: 65px;
+}
+
+.shot8{
+    margin: -10px 0px 0px 17px;
+    width: 125px;
+    height: 65px;
+}
+.shot9{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot10{
+    margin: -10px 0px 0px 17px;
+    width: 90px;
+    height: 64px;
+}
+.shot11{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+.shot12{
+    margin: -10px 0px 0px 17px;
+    width: 127px;
+    height: 64px;
+}
+
+
+
+
+/* screenshot code end here .................  */
+
+/* footer code start here ...........  */
+
+.footerbox{
+    margin: 200px 0px 40px 260px;
+}
+.footerbox p a{
+   text-decoration: none;
+}
+
+
+
+
+/* footer code end here ...........  */
